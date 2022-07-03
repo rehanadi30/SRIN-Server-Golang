@@ -1,0 +1,13 @@
+### GET
+GET http://localhost:8080/restaurant-items
+
+### POST
+POST http://localhost:8080/restaurant-items
+Content-Type: application/json
+
+{
+    "name": "Mie Rebus"
+}
+
+### Remove
+DELETE http://localhost:8080/restaurant-items/d1587a32-e659-4a81-ace1-9649b1f9aa7a
